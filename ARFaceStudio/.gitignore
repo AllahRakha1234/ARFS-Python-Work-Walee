@@ -1,0 +1,45 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (if you don't want to include raw data files)
+data/
+*.csv
+*.xlsx
+
+# Model files (if they are large or you don’t want them in the repository)
+models/
+
+# Sources (if this contains generated files or logs)
+Sources.txt
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE-specific
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Python virtual environment folders
+*.env
+.env/
+venv/
